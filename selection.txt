@@ -1,0 +1,57 @@
+Q1. module main
+	declare string name
+	input name 
+	declare double amount
+	input amount
+	declare double tax
+	input tax
+	initialize double salestax to zero
+	initialize double finalamount to zero
+	
+	if tax == 0 
+		then set tax = 0
+	else if tax == 1
+		then set tax =0.03
+	else if tax == 2
+		then set tax = 0.05
+	else tax == 3
+		then set tax = 0.07
+		
+	set salestax = amount * tax
+	set finalamount= amount + salestax
+	
+	print name
+	print amount
+	print salestax
+	print finalamount
+
+end main 
+
+Q2.
+
+module main
+	declare int number
+	input number
+	declare double payrate
+	input payrate
+	declare double hours
+	input hours
+	initialize weeklypay to zero
+	
+	if hours <= 60
+		then payrate = 25.00
+		if hours > 35
+			then payrate = payrate* 1.5
+		else 
+			pay baserate
+		endif
+	else 
+		print 'not allowed'
+	endif
+	
+	set weeklypay= hours * payrate
+	
+	print name
+	print weeklypay
+
+end main
