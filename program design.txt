@@ -1,0 +1,14 @@
+1. a.Input : Ask or prompt the user for 10 scores(use while loop here)
+		b.Process: Calculate the average 10 scores using 'avg' variable
+					add all the sum of the scores to 'sum' variable
+					avg equals to sum/ 10
+				c. Output: Display the output(avg) to the user.
+			
+			
+2. a. Input:Take the dimensions (length and breadth) of the footprint of the roof
+					measure the rainfall in inches
+					name variables like length = l, breadth = b , rainfall = r
+		b. Process: Convert the  footprint into inches by multiply 12 for both the length and breadth, and for rainfalll multiply by the no of inches
+					save the footprint to 'result' variable
+					Divide the result by 231
+				c. Output: Display the output to the user.
