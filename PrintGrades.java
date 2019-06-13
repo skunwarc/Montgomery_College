@@ -11,25 +11,25 @@ public class PrintGrades {
             System.out.print("Enter an exam score: ");
             int scores = sc.nextInt();
 
-            if (scores >= 97) {
+            if (scores >= 97 && scores < 100) {
                 System.out.println("Good job. Your grade is A+. ");
-            } else if (scores >= 94) {
+            } else if (scores >= 94 && scores <97) {
                 System.out.println("Good job. Your grade is A.");
-            } else if (scores >= 90) {
+            } else if (scores >= 90 && scores <94) {
                 System.out.println("Good job. Your grade is A-.");
-            } else if (scores >= 87) {
+            } else if (scores >= 87 && scores <90) {
                 System.out.println("Good job. Your grade is B+.");
-            } else if (scores >= 84) {
+            } else if (scores >= 84 && scores <87) {
                 System.out.println("Good job. Your grade is B.");
-            } else if (scores >= 80) {
+            } else if (scores >= 80 && scores <84) {
                 System.out.println("Good job. Your grade is B-.");
-            } else if (scores >= 77) {
+            } else if (scores >= 77 && scores <80) {
                 System.out.println("Good job. Your grade is C+.");
-            } else if (scores >= 74) {
+            } else if (scores >= 74 && scores <77) {
                 System.out.println("Good job. Your grade is C.");
-            } else if (scores >= 70) {
+            } else if (scores >= 70 && scores <74) {
                 System.out.println("Good job. Your grade is C-.");
-            } else if (scores >= 60) {
+            } else if (scores >= 60 && scores <70) {
                 System.out.println("Good job. Your grade is C-.");
             } else {
                 System.out.println("Go back to school if you get below 60.");
