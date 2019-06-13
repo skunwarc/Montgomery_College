@@ -1,3 +1,10 @@
+Q. 
+Create a program that will allow users to enter a word, and a character number index. Your program will print out the size of the word,
+as well as the substring (starting from 0) to the index the user specified. If the user entered index is larger than the size of the word,
+the program will print "Index is larger than length".
+
+
+
 import java.util.Scanner;
 
 public class StringSubstring {
