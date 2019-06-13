@@ -1,0 +1,13 @@
+main module
+
+	- from the door take a left,
+	- keep going straight until you reach a door 
+	- after you exit from the dooor take a left
+	- from there take the elevator and go to the first floor
+	- from there take a left turn and keep going straight until you reach a main door 
+	- from there turn left until you see the building corner
+	- from there turn left until you reach a road
+	- from there turn right until you see a Subway on your right
+
+
+end module
