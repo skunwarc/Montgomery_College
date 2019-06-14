@@ -8,7 +8,7 @@ public class LoopDebug {
         String userInput="";
         userInput = keyboard.next();
 
-        while (!userinput.equals("") {
+        while (!userInput.equals("") {
             
         
             System.out.println(userInput);
