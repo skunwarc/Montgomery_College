@@ -1,15 +1,14 @@
 public class NestedLoop {
 
-    static final int MAX = 8;
-
     public static void main(String[] args) {
         int row, column;
+        int max = 9;
 
-        for (row = 0; row <= MAX; row++) {
-                for (column = 0; column <= MAX; column++) {
-                    System.out.println(row +row );
-                }
-            System.out.println(row+1); //Takes us to the next line
+        for (row = 1; row <= max; row++) {
+            for (column = 1; column <= row; column++) {
+                System.out.print(row);
+            }
+            System.out.println(); //Takes us to the next line
         }
     }
 }
