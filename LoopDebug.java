@@ -5,15 +5,12 @@ public class LoopDebug {
     public static void main(String[] args) {
 
         Scanner keyboard = new Scanner(System.in);
-        String userInput;
+        String userInput="";
+        userInput = keyboard.next();
 
-
-        while (true) {
-            System.out.println("Input the things you want: ");
-            userInput = keyboard.next();
-            //System.out.println("Input the things you want: ");
-
-
+        while (!userinput.equals("") {
+            
+        
             System.out.println(userInput);
             System.out.println("Do you want to continue: (Y/N)?");
             userInput=keyboard.next();
